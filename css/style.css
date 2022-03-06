@@ -463,7 +463,7 @@ textarea.input {
 .touch [data-fullscreen] {
   min-height: calc(var(--vh, 1vh) * 100);
 }
-@media (max-width: 48.06125em) {
+@media (max-width: 48.12375em) {
   .touch [data-fullscreen] {
     transition: height 0.2s;
   }
@@ -583,7 +583,7 @@ textarea.input {
     padding-right: 1.25rem;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .item__icon {
     font-size: 3.125rem;
   }
@@ -660,27 +660,27 @@ textarea.input {
 .menu__body {
   display: flex;
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .menu__body {
     align-items: center;
   }
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .menu__list {
     display: flex;
   }
 }
-@media (min-width: 768.98px) and (min-width: 78.4375em) {
+@media (min-width: 769.98px) and (min-width: 78.4375em) {
   .menu__list {
     margin-right: 6.25rem;
   }
 }
-@media (min-width: 768.98px) and (min-width: 20em) and (max-width: 78.4375em) {
+@media (min-width: 769.98px) and (min-width: 20em) and (max-width: 78.4375em) {
   .menu__list {
     margin-right: clamp( 1.25rem , -0.4612299465rem  +  8.5561497326vw , 6.25rem );
   }
 }
-@media (min-width: 768.98px) and (max-width: 20em) {
+@media (min-width: 769.98px) and (max-width: 20em) {
   .menu__list {
     margin-right: 1.25rem;
   }
@@ -688,7 +688,7 @@ textarea.input {
 .menu .social__icons {
   display: none;
 }
-@media (max-width: 48.06125em) {
+@media (max-width: 48.12375em) {
   .menu .social__icons {
     display: flex;
   }
@@ -699,6 +699,14 @@ textarea.input {
 }
 .menu .social__icon:not(:last-child) {
   margin-right: 15px;
+}
+.menu__item.hidden {
+  display: none;
+}
+@media (max-width: 768.98px) {
+  .menu__item.hidden {
+    display: inline-block;
+  }
 }
 @media (min-width: 64.0625em) {
   .menu__item:not(:last-child) {
@@ -749,7 +757,7 @@ textarea.input {
 .button__header:hover {
   background: #000;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .button__header {
     font-size: 1.5rem;
     padding: 15px 20px;
@@ -759,7 +767,7 @@ textarea.input {
 .icon-menu {
   display: none;
 }
-@media (max-width: 48.06125em) {
+@media (max-width: 48.12375em) {
   .icon-menu {
     display: block;
     position: relative;
@@ -803,7 +811,7 @@ textarea.input {
   }
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .menu__body {
     position: fixed;
     overflow: auto;
@@ -1002,14 +1010,14 @@ textarea.input {
   cursor: pointer;
   z-index: 50;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   #back-to-top {
     width: 45px;
     height: 45px;
     right: 15px;
   }
 }
-@media (min-width: 48.06125em) {
+@media (min-width: 48.12375em) {
   #back-to-top:hover, #back-to-top:focus {
     background: #000;
     outline: none;
@@ -1124,17 +1132,17 @@ textarea.input {
   line-height: 1.2916666667;
   color: #fff;
 }
-@media (max-width: 767.98px) and (min-width: 60.4375em) {
+@media (max-width: 768.98px) and (min-width: 60.4375em) {
   .fullscreen__title {
     font-size: 4.5rem;
   }
 }
-@media (max-width: 767.98px) and (min-width: 20em) and (max-width: 60.4375em) {
+@media (max-width: 768.98px) and (min-width: 20em) and (max-width: 60.4375em) {
   .fullscreen__title {
     font-size: clamp( 2.25rem , 1.1371715611rem  +  5.5641421947vw , 4.5rem );
   }
 }
-@media (max-width: 767.98px) and (max-width: 20em) {
+@media (max-width: 768.98px) and (max-width: 20em) {
   .fullscreen__title {
     font-size: 2.25rem;
   }
@@ -1218,7 +1226,7 @@ textarea.input {
   display: flex;
   flex-wrap: wrap;
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .Services__row {
     margin: 0 -0.9375rem;
   }
@@ -1227,7 +1235,7 @@ textarea.input {
   flex: 1 1 100%;
   margin-bottom: 3.75rem;
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .Services__column {
     flex: 1 1 50%;
     padding: 0 15px;
@@ -1571,7 +1579,7 @@ textarea.input {
 .therapy__item:not(:last-child) {
   margin-bottom: 1.875rem;
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .therapy__item {
     display: flex;
   }
@@ -1580,7 +1588,7 @@ textarea.input {
 .item {
   position: relative;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .item__video {
     flex: 0 1 100%;
     padding-bottom: 65.25%;
@@ -1589,7 +1597,7 @@ textarea.input {
     margin-bottom: 0.9375rem;
   }
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .item__video {
     flex: 0 1 729px;
     margin-right: 1.25rem;
@@ -1599,7 +1607,7 @@ textarea.input {
   flex: 0 1 540px;
   text-align: left;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .item__content {
     flex: 0 1 auto;
   }
@@ -1706,17 +1714,17 @@ textarea.input {
     padding: 0.9375rem;
   }
 }
-@media (min-width: 768.98px) and (min-width: 78.4375em) {
+@media (min-width: 769.98px) and (min-width: 78.4375em) {
   .Reviews-slider__image {
     margin-right: 1.25rem;
   }
 }
-@media (min-width: 768.98px) and (min-width: 20em) and (max-width: 78.4375em) {
+@media (min-width: 769.98px) and (min-width: 20em) and (max-width: 78.4375em) {
   .Reviews-slider__image {
     margin-right: clamp( 0.625rem , 0.4110962567rem  +  1.0695187166vw , 1.25rem );
   }
 }
-@media (min-width: 768.98px) and (max-width: 20em) {
+@media (min-width: 769.98px) and (max-width: 20em) {
   .Reviews-slider__image {
     margin-right: 0.625rem;
   }
@@ -1779,13 +1787,13 @@ textarea.input {
     margin-bottom: 0.625rem;
   }
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .Reviews-slide__header {
     display: flex;
     align-items: center;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .Reviews-slide__header {
     text-align: center;
   }
@@ -1874,7 +1882,7 @@ textarea.input {
 .form__row {
   margin: 0 -1.875rem;
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .form__row {
     display: flex;
   }
@@ -2314,7 +2322,7 @@ textarea.input {
   align-items: flex-start;
   margin: 0 -15px;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .cardiopulse .info__row {
     flex-wrap: wrap;
   }
@@ -2322,12 +2330,12 @@ textarea.input {
 .cardiopulse .info__column {
   padding: 0 15px;
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .cardiopulse .info__column {
     flex: 1 0 100%;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .cardiopulse .info__image {
     text-align: center;
   }
@@ -2354,7 +2362,7 @@ textarea.input {
     font-size: 1.125rem;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .cardiopulse .info__text {
     text-align: justify;
   }
@@ -2506,7 +2514,7 @@ textarea.input {
     flex: 1 1 50%;
   }
 }
-@media (max-width: 48.06125em) {
+@media (max-width: 48.12375em) {
   .contacts .info__column {
     flex: 1 1 100%;
   }
@@ -2594,7 +2602,7 @@ textarea.input {
     grid-template-columns: 1fr 1fr;
   }
 }
-@media (max-width: 48.06125em) {
+@media (max-width: 48.12375em) {
   .gallery-block {
     grid-template-columns: 1fr;
     text-align: center;
@@ -2603,7 +2611,7 @@ textarea.input {
 .gallery-block__item img {
   max-width: 100%;
 }
-@media (min-width: 768.98px) {
+@media (min-width: 769.98px) {
   .gallery-block__item img {
     min-height: 300px;
   }
@@ -2674,7 +2682,7 @@ textarea.input {
     display: inline-block;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
   .price__column {
     flex: 1 0 100%;
     padding: 15px 10px;
@@ -3134,7 +3142,7 @@ textarea.input {
   padding: 10px 16px;
   flex: 1 1 50%;
 }
-@media (max-width: 48.06125em) {
+@media (max-width: 48.12375em) {
   .clinic__column {
     flex: 1 1 100%;
   }
