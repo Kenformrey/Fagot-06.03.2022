@@ -1714,14 +1714,34 @@ textarea.input {
     padding: 0.9375rem;
   }
 }
+@media (min-width: 75em) {
+  .Reviews-slider__slide {
+    padding-right: 1.25rem;
+  }
+}
+@media (min-width: 48em) and (max-width: 75em) {
+  .Reviews-slider__slide {
+    padding-right: clamp( 0.625rem , -0.4861111111rem  +  2.3148148148vw , 1.25rem );
+  }
+}
+@media (max-width: 48em) {
+  .Reviews-slider__slide {
+    padding-right: 0.625rem;
+  }
+}
+.Reviews-slider__image img {
+  border-radius: 50%;
+  height: 72px;
+  width: 72px;
+}
 @media (min-width: 769.98px) and (min-width: 78.4375em) {
   .Reviews-slider__image {
-    margin-right: 1.25rem;
+    margin-right: 0.9375rem;
   }
 }
 @media (min-width: 769.98px) and (min-width: 20em) and (max-width: 78.4375em) {
   .Reviews-slider__image {
-    margin-right: clamp( 0.625rem , 0.4110962567rem  +  1.0695187166vw , 1.25rem );
+    margin-right: clamp( 0.625rem , 0.5180481283rem  +  0.5347593583vw , 0.9375rem );
   }
 }
 @media (min-width: 769.98px) and (max-width: 20em) {
@@ -3083,6 +3103,21 @@ textarea.input {
 @media (max-width: 20em) {
   .about {
     padding-top: 5.625rem;
+  }
+}
+@media (min-width: 78.4375em) {
+  .about__clinic {
+    padding-bottom: 3.125rem;
+  }
+}
+@media (min-width: 20em) and (max-width: 78.4375em) {
+  .about__clinic {
+    padding-bottom: clamp( 1.25rem , 0.6082887701rem  +  3.2085561497vw , 3.125rem );
+  }
+}
+@media (max-width: 20em) {
+  .about__clinic {
+    padding-bottom: 1.25rem;
   }
 }
 @media (min-width: 78.4375em) {
