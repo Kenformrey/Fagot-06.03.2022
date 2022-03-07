@@ -2847,12 +2847,12 @@ textarea.input {
 }
 @media (min-width: 78.4375em) {
   .doctor {
-    padding-bottom: 7.5rem;
+    padding-bottom: 3.125rem;
   }
 }
 @media (min-width: 20em) and (max-width: 78.4375em) {
   .doctor {
-    padding-bottom: clamp( 0.00000625rem , -2.5668365307rem  +  12.8342139037vw , 7.5rem );
+    padding-bottom: clamp( 0.00000625rem , -1.0695103275rem  +  5.3475828877vw , 3.125rem );
   }
 }
 @media (max-width: 20em) {
@@ -2898,6 +2898,8 @@ textarea.input {
 .doctor__image img {
   width: 100%;
   height: 100%;
+  max-width: 370px;
+  height: 400px;
 }
 @media (min-width: 840px) {
   .doctor__description {
@@ -2992,6 +2994,9 @@ textarea.input {
   .doctor__info-subtitle {
     margin-top: 0.3125rem;
   }
+}
+.doctor__info-subtitle .heal {
+  text-indent: 25px;
 }
 .doctor__info-subtitle li:not(:last-child) {
   margin-bottom: 15px;
